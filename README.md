@@ -16,7 +16,7 @@ Everything lives in `index.html`. Search-and-replace these placeholders:
 | `twitter.com/yourusername` | Contact section | Your X/Twitter (or delete the link) |
 | Hero stats (`4+`, `30+`, `12`) | `.hero-meta` | Your real numbers |
 | About paragraphs & `whoami.log` panel | `#about` | Your background |
-| Skills matrix | `#skills` | Your real tools/skills |
+| Education entries | `#education` | Your real schools, degrees, and dates |
 | Timeline entries | `#experience` | Your real roles (add/remove `<li class="timeline-item">` blocks) |
 | Project cards | `#projects` | Your real projects — update `href`, title, description, tags |
 | Award / certification cards | `#awards` | Your real certs and awards (add/remove `.cert-card` blocks) |
@@ -25,19 +25,11 @@ Everything lives in `index.html`. Search-and-replace these placeholders:
 In `js/script.js`, update `START_DATE` to when your security career actually started (it powers the
 small "uptime" counter in the About panel) — or delete that row from `index.html` if you'd rather skip it.
 
-## 2. Wire up the contact form
+## 2. Update your contact links
 
-The form is intentionally endpoint-agnostic. Pick one:
-
-- **Formspree** (easiest): create a form at [formspree.io](https://formspree.io), then set
-  `<form id="contactForm" action="https://formspree.io/f/yourFormId" method="POST">` and remove the
-  `preventDefault()` submit handler in `js/script.js` (or keep it and let Formspree's own JS client handle it).
-- **Netlify Forms**: if hosting on Netlify instead of GitHub Pages, add `data-netlify="true"` to the
-  `<form>` tag and a hidden `form-name` input — Netlify handles the rest.
-- **Your own backend**: point `action` at your API endpoint and adjust the JS `submit` handler.
-
-GitHub Pages only serves static files, so *some* third-party form service (or a serverless function
-elsewhere) is required to actually receive submissions.
+The Contact section is a simple set of direct links (no form) — email, GitHub, Devpost, TryHackMe,
+Discord. Edit the `href` and visible text for each `.contact-card` in `index.html` if any of your
+handles or URLs change.
 
 ## 3. Deploy to GitHub Pages
 
@@ -62,7 +54,7 @@ elsewhere) is required to actually receive submissions.
 ```
 index.html        All page content and structure
 css/style.css      Full design system (colors, type, layout, responsive rules)
-js/script.js       Terminal typing animation, nav toggle, scroll reveal, form handler
+js/script.js       Hero letter animation, scroll progress, scrollspy nav, card spotlight, reveal, clock
 assets/            Drop your resume PDF / og-image / favicon overrides here
 ```
 
