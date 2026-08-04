@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vincent Huynh — Cybersecurity Professional</title>
+<meta name="description" content="Portfolio of Vincent Huynh, cybersecurity professional — experience, skills, awards, and projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<!-- background grid / scanline texture -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-noise" aria-hidden="true"></div>
+
+<div class="skip-link-wrap">
+  <a class="skip-link" href="#main">Skip to content</a>
+</div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">&gt;_</span>
+      <span class="brand-text">V.HUYNH<span class="brand-dot">.</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav-link"><span class="nav-idx">01</span>About</a>
+      <a href="#skills" class="nav-link"><span class="nav-idx">02</span>Skills</a>
+      <a href="#experience" class="nav-link"><span class="nav-idx">03</span>Experience</a>
+      <a href="#awards" class="nav-link"><span class="nav-idx">04</span>Awards</a>
+      <a href="#projects" class="nav-link"><span class="nav-idx">05</span>Projects</a>
+      <a href="#contact" class="nav-link"><span class="nav-idx">06</span>Contact</a>
+    </nav>
+
+    <a href="assets/Vincent_Huynh_Resume.pdf" class="btn btn-ghost header-cta" download>
+      <span>Resume</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot-live"></span> Available for freelance &amp; full-time roles</p>
+
+        <h1 class="hero-title">
+          Protecting what<br>
+          <span class="hero-title-accent">matters most, by design.</span>
+        </h1>
+
+        <p class="hero-lede">
+          I'm <strong>Vincent Huynh</strong>, a cybersecurity professional who bridges hands-on technical
+          work with clear communication — helping teams understand their risk, strengthen their defenses,
+          and build security in from the start rather than bolt it on after.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View my work</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get in touch</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">X+</span>
+            <span class="hero-meta-label">Years in security</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">X</span>
+            <span class="hero-meta-label">Certifications</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">X+</span>
+            <span class="hero-meta-label">Projects shipped</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-terminal" aria-hidden="false" role="img" aria-label="Terminal window revealing a short profile summary">
+        <div class="terminal-window">
+          <div class="terminal-titlebar">
+            <div class="terminal-dots">
+              <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            </div>
+            <span class="terminal-title">vincent@huynh: ~/profile</span>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+            <p class="term-line"><span class="term-prompt">$</span> <span class="term-cmd" id="typedLine"></span><span class="term-cursor" id="typedCursor">▌</span></p>
+            <div id="terminalOutput" class="term-output"></div>
+          </div>
+        </div>
+        <div class="terminal-badge">
+          <span class="badge-pulse"></span>
+          OPEN TO WORK
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-idx">01 / About</span>
+        <h2 class="section-title">Background</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            [Placeholder — replace with your real bio.] I'm a cybersecurity professional focused on
+            protecting systems and the people who rely on them. My background spans hands-on technical
+            work and clear, structured communication — I care as much about making risk understandable
+            to non-technical stakeholders as I do about the technical details themselves.
+          </p>
+          <p>
+            [Placeholder.] I'm currently focused on growing my skills across security engineering, risk
+            and compliance, and applied problem-solving — always looking for the next challenge that
+            pushes my understanding further.
+          </p>
+          <p>
+            [Placeholder.] Outside of core security work, I bring the same discipline and curiosity to
+            side projects, continued learning, and community involvement.
+          </p>
+
+          <ul class="about-facts">
+            <li><span class="fact-label">Based in</span><span class="fact-value">[City, State]</span></li>
+            <li><span class="fact-label">Focus</span><span class="fact-value">[e.g. Security Engineering · GRC · Cloud Security]</span></li>
+            <li><span class="fact-label">Currently</span><span class="fact-value">[Your Title] @ [Your Org]</span></li>
+          </ul>
+        </div>
+
+        <div class="about-panel">
+          <div class="panel-header">
+            <span class="panel-dot"></span> profile.log
+          </div>
+          <dl class="kv-list">
+            <div class="kv-row"><dt>role</dt><dd>[Your current title]</dd></div>
+            <div class="kv-row"><dt>education</dt><dd>[Your school / degree]</dd></div>
+            <div class="kv-row"><dt>stack</dt><dd>[Your core tools]</dd></div>
+            <div class="kv-row"><dt>languages</dt><dd>[Your languages]</dd></div>
+            <div class="kv-row"><dt>interests</dt><dd>[Your interests]</dd></div>
+            <div class="kv-row"><dt>uptime</dt><dd><span id="uptimeCounter">calculating…</span></dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-idx">02 / Skills</span>
+        <h2 class="section-title">Capability matrix</h2>
+        <p class="section-sub">Core competencies grouped by discipline, not by buzzword.</p>
+      </div>
+
+      <div class="matrix">
+        <article class="matrix-card">
+          <div class="matrix-card-head">
+            <span class="matrix-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Security Fundamentals</h3>
+          </div>
+          <ul class="matrix-tags">
+            <li>[Risk Assessment]</li>
+            <li>[Security Frameworks]</li>
+            <li>[Vulnerability Management]</li>
+            <li>[Identity &amp; Access Mgmt]</li>
+            <li>[Add your skill]</li>
+          </ul>
+        </article>
+
+        <article class="matrix-card">
+          <div class="matrix-card-head">
+            <span class="matrix-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.2 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Monitoring &amp; Response</h3>
+          </div>
+          <ul class="matrix-tags">
+            <li>[SIEM &amp; Log Analysis]</li>
+            <li>[Incident Response]</li>
+            <li>[Threat Awareness]</li>
+            <li>[Documentation &amp; Reporting]</li>
+            <li>[Add your skill]</li>
+          </ul>
+        </article>
+
+        <article class="matrix-card">
+          <div class="matrix-card-head">
+            <span class="matrix-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3.5" y="4.5" width="17" height="12" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M8 20h8M12 16.5V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Cloud &amp; Infrastructure</h3>
+          </div>
+          <ul class="matrix-tags">
+            <li>[Cloud Platform, e.g. AWS]</li>
+            <li>[Networking Fundamentals]</li>
+            <li>[Systems Administration]</li>
+            <li>[Add your skill]</li>
+            <li>[Add your skill]</li>
+          </ul>
+        </article>
+
+        <article class="matrix-card">
+          <div class="matrix-card-head">
+            <span class="matrix-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M8 5L3 12l5 7M16 5l5 7-5 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Tools &amp; Programming</h3>
+          </div>
+          <ul class="matrix-tags">
+            <li>[Python]</li>
+            <li>[Bash / Shell Scripting]</li>
+            <li>[Git &amp; Version Control]</li>
+            <li>[Add your tool]</li>
+            <li>[Add your tool]</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-idx">03 / Experience</span>
+        <h2 class="section-title">Career timeline</h2>
+      </div>
+
+      <p class="section-sub" style="margin-top:-28px; margin-bottom:40px;">
+        Placeholder entries below — replace with your real roles from LinkedIn (title, organization,
+        location, dates, and 2–3 bullet points per role work well).
+      </p>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <h3>[Job Title]</h3>
+              <span class="timeline-date">[Start] — [End / Present]</span>
+            </div>
+            <p class="timeline-org">[Company Name] · [City, State]</p>
+            <p>
+              [One-line summary of the role.]
+            </p>
+            <ul class="timeline-tags">
+              <li>[Skill]</li><li>[Skill]</li><li>[Skill]</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <h3>[Job Title]</h3>
+              <span class="timeline-date">[Start] — [End]</span>
+            </div>
+            <p class="timeline-org">[Company Name] · [City, State]</p>
+            <p>
+              [One-line summary of the role.]
+            </p>
+            <ul class="timeline-tags">
+              <li>[Skill]</li><li>[Skill]</li><li>[Skill]</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <h3>[Job Title / Education]</h3>
+              <span class="timeline-date">[Start] — [End]</span>
+            </div>
+            <p class="timeline-org">[Organization or School] · [City, State]</p>
+            <p>
+              [One-line summary.]
+            </p>
+            <ul class="timeline-tags">
+              <li>[Skill]</li><li>[Skill]</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-idx">05 / Projects</span>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-sub">Tools, research, and writeups — click a case file to open the repo.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <a class="project-card" href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">
+          <div class="project-top">
+            <span class="project-tag tag-tool">Tool</span>
+            <svg class="project-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H7M13 5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>[Project Name]</h3>
+          <p>[One to two sentences describing the project, the problem it solves, and its measurable impact.]</p>
+          <ul class="project-stack">
+            <li>[Tech]</li><li>[Tech]</li><li>[Tech]</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">
+          <div class="project-top">
+            <span class="project-tag tag-research">Research</span>
+            <svg class="project-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H7M13 5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>[Project Name]</h3>
+          <p>[One to two sentences describing the project, the problem it solves, and its measurable impact.]</p>
+          <ul class="project-stack">
+            <li>[Tech]</li><li>[Tech]</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/yourusername/project-three" target="_blank" rel="noopener">
+          <div class="project-top">
+            <span class="project-tag tag-tool">Tool</span>
+            <svg class="project-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H7M13 5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>[Project Name]</h3>
+          <p>[One to two sentences describing the project, the problem it solves, and its measurable impact.]</p>
+          <ul class="project-stack">
+            <li>[Tech]</li><li>[Tech]</li><li>[Tech]</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/yourusername/security-awareness-toolkit" target="_blank" rel="noopener">
+          <div class="project-top">
+            <span class="project-tag tag-research">Resource</span>
+            <svg class="project-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H7M13 5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>[Project Name]</h3>
+          <p>[One to two sentences describing the project, the problem it solves, and its measurable impact.]</p>
+          <ul class="project-stack">
+            <li>[Tech]</li><li>[Tech]</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/yourusername/project-four" target="_blank" rel="noopener">
+          <div class="project-top">
+            <span class="project-tag tag-tool">Tool</span>
+            <svg class="project-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H7M13 5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>[Project Name]</h3>
+          <p>[One to two sentences describing the project, the problem it solves, and its measurable impact.]</p>
+          <ul class="project-stack">
+            <li>[Tech]</li><li>[Tech]</li><li>[Tech]</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/yourusername/project-five" target="_blank" rel="noopener">
+          <div class="project-top">
+            <span class="project-tag tag-research">Research</span>
+            <svg class="project-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H7M13 5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>[Project Name]</h3>
+          <p>[One to two sentences describing the project, the problem it solves, and its measurable impact.]</p>
+          <ul class="project-stack">
+            <li>[Tech]</li><li>[Tech]</li>
+          </ul>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AWARDS & CERTIFICATIONS ============ -->
+  <section class="section" id="awards">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-idx">04 / Awards &amp; Certifications</span>
+        <h2 class="section-title">Achievements</h2>
+        <p class="section-sub">A running list of certifications, awards, and recognitions — replace with your real ones from LinkedIn.</p>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card">
+          <span class="cert-badge">CERT</span>
+          <h3>[Certification Name]</h3>
+          <p>[Issuing Org] · [Year]</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-badge">CERT</span>
+          <h3>[Certification Name]</h3>
+          <p>[Issuing Org] · [Year]</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-badge">🏆</span>
+          <h3>[Award Name]</h3>
+          <p>[Issuing Org] · [Year]</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-badge">🎓</span>
+          <h3>[Academic Honor / Recognition]</h3>
+          <p>[Issuing Org] · [Year]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-copy">
+        <span class="section-idx">06 / Contact</span>
+        <h2 class="section-title">Let's talk security.</h2>
+        <p class="section-sub">
+          Open to penetration testing engagements, security consulting, and full-time opportunities.
+          The fastest way to reach me is email — I read everything.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com" class="contact-link">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">your.email@example.com</span>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/yourusername</span>
+          </a>
+          <a href="https://www.linkedin.com/in/vincent-huynh-4a9a143a6/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/vincent-huynh-4a9a143a6</span>
+          </a>
+          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">X / Twitter</span>
+            <span class="contact-link-value">@yourusername</span>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-titlebar">
+          <div class="terminal-dots">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          </div>
+          <span>new_message.sh</span>
+        </div>
+
+        <label class="form-field">
+          <span class="form-label">$ name</span>
+          <input type="text" name="name" placeholder="Jane Doe" required>
+        </label>
+
+        <label class="form-field">
+          <span class="form-label">$ email</span>
+          <input type="email" name="email" placeholder="jane@company.com" required>
+        </label>
+
+        <label class="form-field">
+          <span class="form-label">$ message</span>
+          <textarea name="message" rows="4" placeholder="Tell me about the engagement…" required></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary form-submit">
+          <span>Send message</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <p class="form-note" id="formNote">This form is display-only in the template — connect it to Formspree, Netlify Forms, or your own endpoint. See README.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> Vincent Huynh. Built with intent, deployed with care.</p>
+    <a href="#top" class="footer-back">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

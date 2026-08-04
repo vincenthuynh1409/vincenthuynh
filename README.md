@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio — Alex Morgan (template)
+# Cybersecurity Portfolio — Vincent Huynh (template)
 
 A dark, terminal-inspired personal portfolio for security professionals (pentesters, SOC analysts,
 security researchers). Pure HTML/CSS/JS — no build step, no framework, deploys straight to GitHub Pages.
@@ -9,8 +9,8 @@ Everything lives in `index.html`. Search-and-replace these placeholders:
 
 | Placeholder | Where | Replace with |
 |---|---|---|
-| `Alex Morgan` / `A.MORGAN` | Title, header, footer | Your name |
-| `alex.morgan@example.com` | Contact section | Your email |
+| `Vincent Huynh` / `V.HUYNH` | Title, header, footer | Your name |
+| `your.email@example.com` | Contact section | Your email |
 | `github.com/yourusername` | Header resume link is separate; contact + all project cards | Your GitHub |
 | `linkedin.com/in/yourusername` | Contact section | Your LinkedIn |
 | `twitter.com/yourusername` | Contact section | Your X/Twitter (or delete the link) |
@@ -19,8 +19,8 @@ Everything lives in `index.html`. Search-and-replace these placeholders:
 | Skills matrix | `#skills` | Your real tools/skills |
 | Timeline entries | `#experience` | Your real roles (add/remove `<li class="timeline-item">` blocks) |
 | Project cards | `#projects` | Your real projects — update `href`, title, description, tags |
-| Certification cards | `#certifications` | Your real certs (add/remove `.cert-card` blocks) |
-| `assets/Alex_Morgan_Resume.pdf` | Header "Resume" button | Drop your resume PDF into `assets/` with a matching filename, or remove the button |
+| Award / certification cards | `#awards` | Your real certs and awards (add/remove `.cert-card` blocks) |
+| `assets/Vincent_Huynh_Resume.pdf` | Header "Resume" button | Drop your resume PDF into `assets/` with a matching filename, or remove the button |
 
 In `js/script.js`, update `START_DATE` to when your security career actually started (it powers the
 small "uptime" counter in the About panel) — or delete that row from `index.html` if you'd rather skip it.
