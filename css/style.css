@@ -310,16 +310,16 @@ h1, h2, h3, h4 { font-family: var(--font-mono); font-weight: 700; letter-spacing
 }
 
 .hero-avatar {
-    width: 70px !important;
-    height: 70px !important;
+    width: 60px !important;
+    height: 60px !important;
     border-radius: 50% !important;
     overflow: hidden !important;
     padding: 0 !important;
 }
 
 .hero-avatar img {
-    width: 100% !important;
-    height: 100% !important;
+    width: 90% !important;
+    height: 90% !important;
     border-radius: 50% !important;
     object-fit: cover !important;
     display: block !important;
