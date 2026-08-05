@@ -1,67 +1,155 @@
-# Cybersecurity Portfolio — Vincent Huynh (template)
+# 🛡️ Vincent Huynh — Cybersecurity Portfolio
 
-A dark, terminal-inspired personal portfolio for security professionals (pentesters, SOC analysts,
-security researchers). Pure HTML/CSS/JS — no build step, no framework, deploys straight to GitHub Pages.
+> **Personal portfolio showcasing my journey in cybersecurity, technology, and hands-on learning.**
 
-## 1. Customize your content
+🌐 **Live Website:** [vincenthuynh1409.github.io/vincenthuynh](https://vincenthuynh1409.github.io/vincenthuynh/?utm_source=chatgpt.com)
 
-Everything lives in `index.html`. Search-and-replace these placeholders:
+---
 
-| Placeholder | Where | Replace with |
-|---|---|---|
-| `Vincent Huynh` / `V.HUYNH` | Title, header, footer | Your name |
-| `your.email@example.com` | Contact section | Your email |
-| `github.com/yourusername` | Header resume link is separate; contact + all project cards | Your GitHub |
-| `linkedin.com/in/yourusername` | Contact section | Your LinkedIn |
-| `twitter.com/yourusername` | Contact section | Your X/Twitter (or delete the link) |
-| Hero stats (`4+`, `30+`, `12`) | `.hero-meta` | Your real numbers |
-| About paragraphs & `whoami.log` panel | `#about` | Your background |
-| Education entries | `#education` | Your real schools, degrees, and dates |
-| Timeline entries | `#experience` | Your real roles (add/remove `<li class="timeline-item">` blocks) |
-| Project cards | `#projects` | Your real projects — update `href`, title, description, tags |
-| Award / certification cards | `#awards` | Your real certs and awards (add/remove `.cert-card` blocks) |
-| `assets/Vincent_Huynh_Resume.pdf` | Header "Resume" button | Drop your resume PDF into `assets/` with a matching filename, or remove the button |
+## 👋 About
 
-In `js/script.js`, update `START_DATE` to when your security career actually started (it powers the
-small "uptime" counter in the About panel) — or delete that row from `index.html` if you'd rather skip it.
+Hi! I'm **Vincent Huynh**, a high school senior and aspiring cybersecurity professional interested in understanding how systems work, how they can be secured, and how security challenges can be solved.
 
-## 2. Update your contact links
+I'm currently building my foundation across **cybersecurity, networking, Linux, programming, and security operations** through hands-on projects, CTFs, research, programs, and continuous learning.
 
-The Contact section is a simple set of direct links (no form) — email, GitHub, Devpost, TryHackMe,
-Discord. Edit the `href` and visible text for each `.contact-card` in `index.html` if any of your
-handles or URLs change.
+My current areas of interest include:
 
-## 3. Deploy to GitHub Pages
+* 🔐 Cybersecurity
+* 🛡️ Security Operations
+* 🕵️ Digital Forensics & OSINT
+* ⚔️ Penetration Testing
+* 🌐 Networking
+* 🐧 Linux
+* 🔑 Cryptography
+* 💻 Programming
+* 🧪 Capture The Flag competitions
 
-1. Create a new repository on GitHub (e.g. `yourusername.github.io` for a root-domain site, or any
-   name for a project site).
-2. Push this folder's contents to the repo:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/your-repo.git
-   git push -u origin main
-   ```
-3. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
-   select branch `main` and folder `/ (root)`, then **Save**.
-4. Your site goes live at `https://yourusername.github.io/your-repo/`
-   (or `https://yourusername.github.io/` if the repo is named `yourusername.github.io`).
+---
 
-## 4. Structure
+## 🌐 Portfolio
 
+The website is organized into several sections documenting my academic and technical journey:
+
+### 🎓 Education
+
+My academic background and cybersecurity-focused coursework, including my high school education and Cisco Networking Academy studies.
+
+### 💼 Experience
+
+Programs, competitions, volunteering, and hands-on experiences that have helped me develop practical technical and problem-solving skills.
+
+### 🏆 Achievements
+
+A collection of awards, certifications, competition results, and other milestones from my academic and cybersecurity journey.
+
+### 🛠️ Projects, Write-ups & Labs
+
+A collection of cybersecurity projects, research, tools, notes, labs, and CTF write-ups.
+
+### 📫 Contact
+
+Ways to connect with me, including GitHub, Devpost, TryHackMe, and email.
+
+---
+
+## 🧰 Tech Stack
+
+### Website
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub Pages
+
+### Cybersecurity
+
+* Kali Linux
+* Wireshark
+* Nmap
+* Python
+* Cisco Packet Tracer
+* Linux CLI
+* Cryptography
+* Digital Forensics
+* OSINT
+* Web Security
+* Reverse Engineering
+
+---
+
+## 🏆 Highlights
+
+Some of the achievements currently featured on the portfolio include:
+
+* 🥇 **1st Place — Cyber Operations Hackathon 2026** — MIT BWSI
+* 🏅 **Co-Founded Team — Top 4% Globally & Top 11% HS Division** — BoroCTF 2026
+* 📜 **Introduction to Cybersecurity** — Cisco Networking Academy
+* 📜 **BWSI Cyber Operations Pre-Requisite Course** — MIT Lincoln Laboratory
+* 🎓 **AP Scholar with Distinction**
+* 🏅 **National Recognition Program — School Recognition Award**
+* 🏆 **Latin Hawk Award** — Hebron High School
+
+---
+
+## 🚀 Featured Project
+
+### 🏦 Operation BLACK VAULT
+
+A browser-based cybersecurity escape-room CTF created during the **MIT Beaver Works Summer Institute Cyber Operations** program.
+
+The project combines multiple areas of cybersecurity into an interconnected challenge environment, including:
+
+* OSINT
+* GEOSINT
+* Cryptography
+* Digital Forensics
+* Reverse Engineering
+* Binary Exploitation
+* Linux
+* Web Security
+* Network Analysis
+
+The project was developed as part of a team and ultimately earned **1st place in the Cyber Operations Hackathon 2026**.
+
+---
+
+## 📚 Learning Philosophy
+
+I believe the best way to learn cybersecurity is to **build, experiment, break things in controlled environments, and figure out why they work**.
+
+```text
+Learn → Build → Break → Analyze → Improve → Repeat
 ```
-index.html        All page content and structure
-css/style.css      Full design system (colors, type, layout, responsive rules)
-js/script.js       Hero letter animation, scroll progress, scrollspy nav, card spotlight, reveal, clock
-assets/            Drop your resume PDF / og-image / favicon overrides here
-```
 
-## 5. Notes
+This portfolio is a record of that process.
 
-- Colors, fonts, and spacing are all driven by CSS custom properties at the top of `css/style.css`
-  (`:root { --bg, --accent, --teal, ... }`) — change the palette in one place.
-- Respects `prefers-reduced-motion` (disables the typing/reveal animations for users who've asked for that).
-- No external JS dependencies — only Google Fonts are loaded remotely.
-- Mobile nav collapses under 920px; layout is responsive down to ~360px.
+---
+
+## 📈 What's Next
+
+I'm continuing to:
+
+* Strengthen my networking and Linux fundamentals
+* Expand my cybersecurity knowledge
+* Participate in more CTFs
+* Build practical security projects
+* Explore defensive and offensive security
+* Improve my programming skills
+* Document what I learn
+* Continue researching cybersecurity topics
+
+---
+
+## 🔗 Connect
+
+* 🌐 **Portfolio:** [vincenthuynh1409.github.io/vincenthuynh](https://vincenthuynh1409.github.io/vincenthuynh/?utm_source=chatgpt.com)
+* 💻 **GitHub:** [github.com/vincenthuynh1409](https://github.com/vincenthuynh1409?utm_source=chatgpt.com)
+* 🏆 **Devpost:** [devpost.com/vincenthuynh1409](https://devpost.com/vincenthuynh1409?utm_source=chatgpt.com)
+* 🧪 **TryHackMe:** [TryHackMe Profile](https://tryhackme.com/p/itsvxnnyy?utm_source=chatgpt.com)
+
+---
+
+<p align="center">
+  <b>Built with curiosity, creativity, and a love for cybersecurity.</b>
+</p>
