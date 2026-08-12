@@ -1,4 +1,4 @@
-# Vincent Huynh — Cybersecurity Portfolio
+# Vincent Huynh — Personal Portfolio Website
 
 A personal portfolio website for showcasing my cybersecurity journey, projects, CTF/lab writeups, technical notes, and contact information.
 
