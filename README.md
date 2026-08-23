@@ -6,7 +6,7 @@ A personal portfolio website for showcasing my bio, experience, achievements, pr
 
 ## Portfolio
 
-The website is organized into several sections documenting my academic and technical journey:
+The website is organized into several sections:
 
 - **Education** = My academic background and cybersecurity-focused coursework.
 
