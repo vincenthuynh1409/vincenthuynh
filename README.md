@@ -1,6 +1,6 @@
 # Vincent Huynh — Personal Portfolio Website
 
-A personal portfolio website for showcasing my cybersecurity journey, projects, CTF/lab writeups, technical notes, and contact information.
+A personal portfolio website for showcasing my bio, experience, achievements, projects/notes, and contact information.
 
 **Live Website Link:** https://vincenthuynh-azure.vercel.app/
 
