@@ -16,7 +16,7 @@ The website is organized into several sections documenting my academic and techn
 
 - **Projects** = A collection of cybersecurity projects, research, tools, notes, labs, and CTF write-ups.
 
-- **Contact** = Ways to connect with me, including GitHub, Devpost, TryHackMe, and email.
+- **Contact** = Ways to connect with me, including GitHub, Devpost, TryHackMe, Discord, and Email.
 
 ## Website Tech Stack
 * HTML5
